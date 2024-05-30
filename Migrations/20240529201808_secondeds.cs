@@ -5,7 +5,7 @@
 namespace ApiProva.Migrations
 {
     /// <inheritdoc />
-    public partial class third : Migration
+    public partial class secondeds : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiProva.Migrations
 {
     [DbContext(typeof(ApiContext))]
-    [Migration("20240516214104_second")]
-    partial class second
+    [Migration("20240529202812_tryCORSexcpetions")]
+    partial class tryCORSexcpetions
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,31 +24,27 @@ namespace ApiProva.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ApiProva.Models.Post", b =>
+            modelBuilder.Entity("ApiProva.Models.Central", b =>
                 {
-                    b.Property<int>("PostId")
+                    b.Property<int>("CentralId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PostId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CentralId"));
 
-                    b.Property<string>("Conteudo")
+                    b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Titulo")
+                    b.Property<string>("Nome")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
+                    b.HasKey("CentralId");
 
-                    b.HasKey("PostId");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Posts");
+                    b.ToTable("UsuariosCentral");
                 });
 
             modelBuilder.Entity("ApiProva.Models.Usuario", b =>
@@ -64,7 +60,12 @@ namespace ApiProva.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
@@ -72,22 +73,6 @@ namespace ApiProva.Migrations
                     b.HasKey("UsuarioId");
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("ApiProva.Models.Post", b =>
-                {
-                    b.HasOne("ApiProva.Models.Usuario", "Usuario")
-                        .WithMany("Posts")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("ApiProva.Models.Usuario", b =>
-                {
-                    b.Navigation("Posts");
                 });
 #pragma warning restore 612, 618
         }

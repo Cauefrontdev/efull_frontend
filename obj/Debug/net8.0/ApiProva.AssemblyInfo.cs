@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiProva")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68938615d9691f113ad8070be125491f6beb0387")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiProva")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiProva")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,53 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\",
+  "WorkspaceRootPath": "C:\\Users\\enric\\Desktop\\api\\api-efull\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240520005058_github--0.1.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240520005058_github--0.1.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enric\\Desktop\\api\\api-efull\\Migrations\\20240529202812_tryCORSexcpetions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240529202812_tryCORSexcpetions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiProvaDB/True/SqlTable/dbo.Usuarios.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\controllers\\centralusuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:controllers\\centralusuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\datacontext\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:datacontext\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\dto\\centraldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:dto\\centraldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\models\\central.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:models\\central.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\api\\api-efull\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240519235859_github--0.0.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240519235859_github--0.0.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|c:\\users\\enric\\desktop\\projetos\\apiprova\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E9747B-1544-4DFC-B0B7-49630D17084C}|ApiProva.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240519235011_pre-github.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240519235011_pre-github.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enric\\Desktop\\api\\api-efull\\Migrations\\20240529201808_secondeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240529201808_secondeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,154 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240520005058_github--0.1.2.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240520005058_github--0.1.2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240520005058_github--0.1.2.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240520005058_github--0.1.2.cs",
-              "RelativeToolTip": "Migrations\\20240520005058_github--0.1.2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Title": "20240529202812_tryCORSexcpetions.cs",
+              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\api\\api-efull\\Migrations\\20240529202812_tryCORSexcpetions.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240529202812_tryCORSexcpetions.cs",
+              "ToolTip": "C:\\Users\\enric\\Desktop\\api\\api-efull\\Migrations\\20240529202812_tryCORSexcpetions.cs",
+              "RelativeToolTip": "Migrations\\20240529202812_tryCORSexcpetions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:50:58.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Usuarios [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiProvaDB/True/SqlTable/dbo.Usuarios.sql",
-              "ToolTip": "dbo.Usuarios [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-20T00:50:31.766Z",
+              "WhenOpened": "2024-05-29T20:28:12.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CentralUsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Controllers\\CentralUsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CentralUsuariosController.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Controllers\\CentralUsuariosController.cs",
-              "RelativeToolTip": "Controllers\\CentralUsuariosController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAIwHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:15:22.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\DTO\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\DTO\\UsuarioDTO.cs",
-              "RelativeToolTip": "DTO\\UsuarioDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:14:56.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CentralDTO.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\DTO\\CentralDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\CentralDTO.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\DTO\\CentralDTO.cs",
-              "RelativeToolTip": "DTO\\CentralDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:14:51.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Central.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Models\\Central.cs",
-              "RelativeDocumentMoniker": "Models\\Central.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Models\\Central.cs",
-              "RelativeToolTip": "Models\\Central.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:13:28.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240519235859_github--0.0.2.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240519235859_github--0.0.2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240519235859_github--0.0.2.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240519235859_github--0.0.2.cs",
-              "RelativeToolTip": "Migrations\\20240519235859_github--0.0.2.cs",
+              "Title": "20240529201808_secondeds.cs",
+              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\api\\api-efull\\Migrations\\20240529201808_secondeds.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240529201808_secondeds.cs",
+              "ToolTip": "C:\\Users\\enric\\Desktop\\api\\api-efull\\Migrations\\20240529201808_secondeds.cs",
+              "RelativeToolTip": "Migrations\\20240529201808_secondeds.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:58:59.18Z",
+              "WhenOpened": "2024-05-29T20:18:08.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAkwGwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:50:54.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiContext.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\DataContext\\ApiContext.cs",
-              "RelativeDocumentMoniker": "DataContext\\ApiContext.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\DataContext\\ApiContext.cs",
-              "RelativeToolTip": "DataContext\\ApiContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:50:42.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240519235011_pre-github.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240519235011_pre-github.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240519235011_pre-github.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Migrations\\20240519235011_pre-github.cs",
-              "RelativeToolTip": "Migrations\\20240519235011_pre-github.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:50:11.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\api\\api-efull\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Program.cs",
+              "ToolTip": "C:\\Users\\enric\\Desktop\\api\\api-efull\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T23:59:58.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\enric\\Desktop\\projetos\\ApiProva\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T20:43:14.498Z",
+              "WhenOpened": "2024-05-29T20:15:39.134Z",
               "EditorCaption": ""
             }
           ]

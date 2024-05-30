@@ -5,7 +5,7 @@
 namespace ApiProva.Migrations
 {
     /// <inheritdoc />
-    public partial class second : Migration
+    public partial class tryCORSexcpetions : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

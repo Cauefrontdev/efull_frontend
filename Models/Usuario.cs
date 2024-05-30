@@ -11,11 +11,14 @@ namespace ApiProva.Models
 
         [Required]
         [MaxLength(100)]
-        public string Nome { get; set; }
+        public string Username { get; set; }
 
         [Required]
         [MaxLength(100)]
         public string Email { get; set; }
+
+        [Required, MaxLength(100)]
+        public string PasswordHash { get; set; }
 
     }
 

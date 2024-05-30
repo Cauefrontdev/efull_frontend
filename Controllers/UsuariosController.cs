@@ -24,88 +24,91 @@ namespace ApiProva.Controllers
                                  .ToListAsync();
         }
 
-            [HttpGet("{id}")]
-            public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        {
+            var usuario = await _context.Usuarios
+                                        .FirstOrDefaultAsync(u => u.UsuarioId == id);
+
+            if (usuario == null)
             {
-                var usuario = await _context.Usuarios
-                                            .FirstOrDefaultAsync(u => u.UsuarioId == id);
-
-                if (usuario == null)
-                {
-                    return NotFound();
-                }
-
-                return usuario;
+                return NotFound();
             }
 
-
-            [HttpPost]
-            public async Task<ActionResult<Usuario>> PostUsuario(UsuarioDTO usuarioDto)
-            {
-                var usuario = new Usuario
-                {
-                    Nome = usuarioDto.Nome,
-                    Email = usuarioDto.Email
-                };
-
-                _context.Usuarios.Add(usuario);
-                await _context.SaveChangesAsync();
-
-                return CreatedAtAction(nameof(GetUsuario), new { id = usuario.UsuarioId }, usuario);
-            }
-
-            [HttpPut("{id}")]
-            public async Task<IActionResult> PutUsuario(int id, UsuarioDTO usuarioDto)
-            {
-                var usuario = await _context.Usuarios.FindAsync(id);
-                if (usuario == null)
-                {
-                    return NotFound();
-                }
-
-                usuario.Nome = usuarioDto.Nome;
-                usuario.Email = usuarioDto.Email;
-
-                _context.Entry(usuario).State = EntityState.Modified;
-
-                try
-                {
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!UsuarioExists(id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-
-                return NoContent();
-            }
-
-            [HttpDelete("{id}")]
-            public async Task<IActionResult> DeleteUsuario(int id)
-            {
-                var usuario = await _context.Usuarios.FindAsync(id);
-                if (usuario == null)
-                {
-                    return NotFound();
-                }
-
-                _context.Usuarios.Remove(usuario);
-                await _context.SaveChangesAsync();
-
-                return NoContent();
-            }
-
-            private bool UsuarioExists(int id)
-            {
-                return _context.Usuarios.Any(e => e.UsuarioId == id);
-            }
+            return usuario;
         }
+
+
+        [HttpPost]
+        public async Task<ActionResult<Usuario>> PostUsuario(UsuarioDTO usuarioDto)
+        {
+            string passwordHash = BCrypt.Net.BCrypt.HashPassword(usuarioDto.PasswordHash);
+
+            var usuario = new Usuario
+            {
+                Username = usuarioDto.Username,
+                Email = usuarioDto.Email,
+                PasswordHash = passwordHash
+            };
+
+            _context.Usuarios.Add(usuario);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.UsuarioId }, usuario);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutUsuario(int id, UsuarioDTO usuarioDto)
+        {
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            usuario.Username = usuarioDto.Username;
+            usuario.Email = usuarioDto.Email;
+
+            _context.Entry(usuario).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!UsuarioExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUsuario(int id)
+        {
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            _context.Usuarios.Remove(usuario);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool UsuarioExists(int id)
+        {
+            return _context.Usuarios.Any(e => e.UsuarioId == id);
+        }
+    }
 }
 
